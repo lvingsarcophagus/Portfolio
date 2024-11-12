@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayan Joshy Maniyath Joshy - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/45309bf18f.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <!-- GSAP Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Loader Container -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="particles-js"></div>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <!-- Commented out Projects Link -->
+            <!-- <li><a href="#projects">Projects</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+            <div class="profile-image">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Leonardo_Phoenix_A_majestic_Livingsarcophagus_its_stonelike_sk_2.jpg-lBVGJptC1HM5UbAg5s79Z6jaoJKRsq.jpeg" alt="Profile Picture">
+            </div>
+            <div id="typed-strings">
+                <p>Nayan Joshy Maniyath Joshy</p>
+            </div>
+            <div class="typing-container">
+                <span id="typed"></span>
+            </div>
+            <p class="info">Blue Teaming | Linux Administration | Ethical hacking</p>
+            <div class="social-icons">
+                <a href="https://github.com/lvingsarcophagus" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/livingsarcophagus/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://t.me/yourusername" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                <a href="mailto:nayanjoshy1nj@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container frosted-glass">
+            <h2>About Me</h2>
+            <p>
+                I’m Nayan Joshy Maniyath Joshy, a cybersecurity enthusiast and aspiring SOC Analyst with a strong foundation in Linux, blue teaming, and incident response. Passionate about network security and threat detection, I’m skilled in container management with Docker, scripting in Python and JavaScript, and leveraging tools like Git & GitHub to manage collaborative projects.
+            </p>
+            <p>
+                With a proactive approach to learning, I stay updated on the latest cybersecurity trends and tools, constantly seeking to enhance my skills in threat analysis and system hardening. My adaptability, technical problem-solving abilities, and effective communication skills make me well-suited to tackling the challenges of the cybersecurity field.
+            </p>
+            <p>
+                Beyond work, I enjoy exploring advancements in IT infrastructure and deepening my understanding of defensive security practices.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <!-- Programming Languages Card -->
+                <div class="skill-card frosted-glass">
+                    <h3>Programming Languages</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="100%">HTML</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="100%">CSS</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="80%">JavaScript</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="75%">Python</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="75%">C++</div>
+                    </div>
+                </div>
+                <!-- Languages Card -->
+                <div class="skill-card frosted-glass">
+                    <h3>Languages</h3>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="100%">Malayalam</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="100%">English</div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" data-width="100%">Hindi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commented out Projects Section -->
+    <!--
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Here you can showcase your projects. Add them as you complete them.</p>
+            <!-- Add your project details here -->
+        </div>
+    </section>
+    -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container frosted-glass">
+            <h2>Contact</h2>
+            <div class="contact-card">
+                <div class="social-icons-vertical">
+                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/yourusername" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="mailto:nayanjoshy1nj@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
